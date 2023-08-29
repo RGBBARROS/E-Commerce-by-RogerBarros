@@ -25,41 +25,41 @@ const catalogo = [
     
     {
         id: 4,
-        nome: "casa",
-        metragem: "de 301m² até 400m²",
-        preco: 400,
+        nome: "apartamento",
+        metragem: "de 60m² até 100m²",
+        preco: 100,
         nomeArquivoImagem: "image-4.jpg",
     },
     
     {
         id: 5,
-        nome: "casa",
-        metragem: "de 401m² até 500m²",
-        preco: 500,
+        nome: "apartamento",
+        metragem: "de 200m² até 300m²",
+        preco: 300,
         nomeArquivoImagem: "image-5.jpg",
     },
     
     {
         id: 6,
-        nome: "casa",
-        metragem: "de 501m² até 600m²",
+        nome: "apartamento",
+        metragem: "até 45m²",
         preco: 600,
         nomeArquivoImagem: "image-6.jpg",
     },
     
     {
         id: 7,
-        nome: "casa",
-        metragem: "de 601m² até 700m²",
-        preco: 700,
+        nome: "apartamento",
+        metragem: "de 301m² até 400m²",
+        preco: 400,
         nomeArquivoImagem: "image-7.jpg",
     },
     
     {
         id: 8,
-        nome: "casa",
-        metragem: "de 701m² até 800m²",
-        preco: 800,
+        nome: "apartamento",
+        metragem: "de 101m² até 200m²",
+        preco: 200,
         nomeArquivoImagem: "image-8.jpg",
     },
 ];
@@ -73,7 +73,7 @@ style="height: 200px;"
 />
 <p>${produtoCatalogo.nome}</p>
 <p>${produtoCatalogo.metragem}</p>
-<p>${produtoCatalogo.preco}</p>
+<p>R$${produtoCatalogo.preco}</p>
 <button>Adicionar</button>
 </div>`;
 
