@@ -1,26 +1,26 @@
 const catalogo = [
     {
         id: 1,
-        nome: "CASA",
-        metragem: "de 60m² até 100m²",
+        nome: "FINANCEIRO",
+        metragem: "DADOS DO SETOR FINANCEIRO",
         preco: 100,
-        nomeArquivoImagem: "image-1.jpg",
+        nomeArquivoImagem: "dados financeiro.png",
     },
     
     {
         id: 2,
-        nome: "CASA",
-        metragem: "de 101m² até 200m²",
+        nome: "COMERCIAL",
+        metragem: "DADOS DO SERT0R DO COMERCIAL",
         preco: 200,
-        nomeArquivoImagem: "image-2.jpg",
+        nomeArquivoImagem: "dados comercial.png",
     },
     
     {
         id: 3,
-        nome: "CASA",
-        metragem: "de 201m² até 300m²",
+        nome: "LOGISTICA",
+        metragem: "DADOS DO SERT0R DE LOGISTICA",
         preco: 300,
-        nomeArquivoImagem: "image-3.jpg",
+        nomeArquivoImagem: "dados logistica.png",
     },
     
     {
